@@ -1,4 +1,4 @@
-# tools/research_tools.py
+# tools/research_tools.py (Updated with proper imports)
 """
 Custom tools for research tasks in the Harvard Research Paper Publication Crew.
 
@@ -7,7 +7,7 @@ citation checking, plagiarism detection, and other research-related tasks.
 """
 
 from typing import Dict, List, Any, Optional
-from crewai_tools import BaseTool
+from langchain.tools import BaseTool
 import requests
 import json
 import os
